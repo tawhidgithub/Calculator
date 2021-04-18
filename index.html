@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="content">
+
+
+        <div class="calcularor">
+
+
+
+            <form name="form" class="main_body">
+                <div class="name">Calculator</div>
+
+                <hr>
+                <input type="text" name="display" value="" class="display_calculet" placeholder="0" id="inp">
+                <div class="bitton_section">
+                    <input type="button" value="7" name="btn" class="btn" onclick="calculator(this.value)">
+
+                    <input type="button" value="8" name="btn" class="btn" onclick="calculator(this.value)">
+
+                    <input type="button" value="9" name="btn" class="btn" onclick="calculator(this.value)">
+                    <br>
+                    <input type="button" value="4" name="btn" class="btn" onclick="calculator(this.value)">
+
+                    <input type="button" value="5" name="btn" class="btn" onclick="calculator(this.value)">
+
+                    <input type="button" value="6" name="btn" class="btn" onclick="calculator(this.value)">
+                    <br>
+                    <input type="button" value="1" name="btn" class="btn" onclick="calculator(this.value)">
+
+                    <input type="button" value="2" name="btn" class="btn" onclick="calculator(this.value)">
+
+                    <input type="button" value="3" name="btn" class="btn" onclick="calculator(this.value)">
+
+
+
+
+                </div>
+                <div class="name_other">
+                    <input type="button" value="/" name="btn" class="btn but_worning"
+                        onclick="calculator(this.value)"><br>
+
+                    <input type="button" value="*" name="btn" class="btn but_worning"
+                        onclick="calculator(this.value)"><br>
+
+                    <input type="button" value="+" name="btn" class="btn but_worning" onclick="calculator(this.value)">
+                    <br>
+                    <input type="button" value="0" name="btn" class="btn but_worning" onclick="calculator(this.value)">
+
+                    <input type="button" value="00" name="btn" class="btn but_worning" onclick="calculator(this.value)">
+
+                    <input type="button" value="." name="btn" class="btn but_worning" onclick="calculator(this.value)">
+
+                    <input type="button" value="-" name="btn" class="btn but_worning"
+                        onclick="calculator(this.value)"><br>
+
+
+                    <!-- equal -->
+
+
+                    <input type="button" value="C" name="btn" class="btn but_worning other"
+                        onclick="display.value=null">
+                    <input type="button" value="=" name="btn" class="btn but_worning other and"
+                        onclick="display.value = eval(display.value)">
+
+
+
+
+
+
+                </div>
+
+        </div>
+
+
+        </form>
+    </div>
+
+    </div>
+
+    <script>
+        function calculator(x) {
+            form.display.value = form.display.value + x;
+
+        }
+
+
+
+        function plus(z) {
+
+
+        }
+
+
+    </script>
+
+
+    </div>
+
+
+</body>
+
+</html>
